@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "zGlue Dragon Adapter"
+Title "zGlue Jade Adapter"
 Date ""
 Rev "1.0"
 Comp "Antmicro"
@@ -1856,7 +1856,7 @@ U 1 1 5DB41B4F
 P 3200 3450
 F 0 "U?" H 3275 5865 50  0000 C CNN
 F 1 "zGlue-Jade" H 3275 5774 50  0000 C CNN
-F 2 "" H 3200 3450 50  0001 C CNN
+F 2 "lib:Z-Glue_LGA-96" H 3200 3450 50  0001 C CNN
 F 3 "" H 3200 3450 50  0001 C CNN
 	1    3200 3450
 	1    0    0    -1  
