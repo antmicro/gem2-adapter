@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name zglue-dragon)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-dragon.lib)(options "")(descr ""))
-  (lib (name zglue-jade-adapter-rescue)(type Legacy)(uri ${KIPRJMOD}/zglue-jade-adapter-rescue.lib)(options "")(descr ""))
+  (lib (name zglue-jade)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-jade.lib)(options "")(descr ""))
 )

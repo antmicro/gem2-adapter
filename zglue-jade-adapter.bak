@@ -1567,10 +1567,10 @@ F 6 "100n" H 3865 10597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5DBC7F26
 P 1600 2800
-F 0 "#PWR?" H 1600 2550 50  0001 C CNN
+F 0 "#PWR0101" H 1600 2550 50  0001 C CNN
 F 1 "GND" H 1605 2627 50  0000 C CNN
 F 2 "" H 1600 2800 50  0001 C CNN
 F 3 "" H 1600 2800 50  0001 C CNN
@@ -1588,10 +1588,10 @@ Wire Wire Line
 Text Label 1750 3700 0    50   ~ 0
 RAVEN_VCC
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5E01A99B
 P 4450 7100
-F 0 "#PWR?" H 4450 6850 50  0001 C CNN
+F 0 "#PWR0102" H 4450 6850 50  0001 C CNN
 F 1 "GND" H 4455 6927 50  0000 C CNN
 F 2 "" H 4450 7100 50  0001 C CNN
 F 3 "" H 4450 7100 50  0001 C CNN
@@ -1617,10 +1617,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 5650 1750 5650
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP18
 U 1 1 5E08B0EF
 P 1650 5750
-F 0 "TP?" V 1650 5600 50  0000 C CNN
+F 0 "TP18" V 1650 5600 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5650 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5950 60  0001 L CNN
 F 3 "" H 1850 6050 60  0001 L CNN
@@ -1628,10 +1628,10 @@ F 3 "" H 1850 6050 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP2
 U 1 1 5E08B0F6
 P 1650 5650
-F 0 "TP?" V 1650 5500 50  0000 C CNN
+F 0 "TP2" V 1650 5500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5550 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5850 60  0001 L CNN
 F 3 "" H 1850 5950 60  0001 L CNN
@@ -1639,10 +1639,10 @@ F 3 "" H 1850 5950 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP1
 U 1 1 5E08B0FD
 P 1650 5550
-F 0 "TP?" V 1650 5400 50  0000 C CNN
+F 0 "TP1" V 1650 5400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5450 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5750 60  0001 L CNN
 F 3 "" H 1850 5850 60  0001 L CNN
@@ -1662,10 +1662,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 5950 1750 5950
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP21
 U 1 1 5E09E6BC
 P 1650 6050
-F 0 "TP?" V 1650 5900 50  0000 C CNN
+F 0 "TP21" V 1650 5900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5950 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6250 60  0001 L CNN
 F 3 "" H 1850 6350 60  0001 L CNN
@@ -1673,10 +1673,10 @@ F 3 "" H 1850 6350 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP20
 U 1 1 5E09E6C3
 P 1650 5950
-F 0 "TP?" V 1650 5800 50  0000 C CNN
+F 0 "TP20" V 1650 5800 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5850 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6150 60  0001 L CNN
 F 3 "" H 1850 6250 60  0001 L CNN
@@ -1684,10 +1684,10 @@ F 3 "" H 1850 6250 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP19
 U 1 1 5E09E6CA
 P 1650 5850
-F 0 "TP?" V 1650 5700 50  0000 C CNN
+F 0 "TP19" V 1650 5700 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5750 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6050 60  0001 L CNN
 F 3 "" H 1850 6150 60  0001 L CNN
@@ -1707,10 +1707,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 6250 1750 6250
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP24
 U 1 1 5E0B2973
 P 1650 6350
-F 0 "TP?" V 1650 6200 50  0000 C CNN
+F 0 "TP24" V 1650 6200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6250 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6550 60  0001 L CNN
 F 3 "" H 1850 6650 60  0001 L CNN
@@ -1718,10 +1718,10 @@ F 3 "" H 1850 6650 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP23
 U 1 1 5E0B297A
 P 1650 6250
-F 0 "TP?" V 1650 6100 50  0000 C CNN
+F 0 "TP23" V 1650 6100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6150 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6450 60  0001 L CNN
 F 3 "" H 1850 6550 60  0001 L CNN
@@ -1729,10 +1729,10 @@ F 3 "" H 1850 6550 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP22
 U 1 1 5E0B2981
 P 1650 6150
-F 0 "TP?" V 1650 6000 50  0000 C CNN
+F 0 "TP22" V 1650 6000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6050 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6350 60  0001 L CNN
 F 3 "" H 1850 6450 60  0001 L CNN
@@ -1752,10 +1752,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 6550 1750 6550
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP27
 U 1 1 5E0C7911
 P 1650 6650
-F 0 "TP?" V 1650 6500 50  0000 C CNN
+F 0 "TP27" V 1650 6500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6550 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6850 60  0001 L CNN
 F 3 "" H 1850 6950 60  0001 L CNN
@@ -1763,10 +1763,10 @@ F 3 "" H 1850 6950 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP26
 U 1 1 5E0C7918
 P 1650 6550
-F 0 "TP?" V 1650 6400 50  0000 C CNN
+F 0 "TP26" V 1650 6400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6450 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6750 60  0001 L CNN
 F 3 "" H 1850 6850 60  0001 L CNN
@@ -1774,10 +1774,10 @@ F 3 "" H 1850 6850 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP25
 U 1 1 5E0C791F
 P 1650 6450
-F 0 "TP?" V 1650 6300 50  0000 C CNN
+F 0 "TP25" V 1650 6300 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6350 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6650 60  0001 L CNN
 F 3 "" H 1850 6750 60  0001 L CNN
@@ -1797,10 +1797,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 6850 1750 6850
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP30
 U 1 1 5E0DD59F
 P 1650 6950
-F 0 "TP?" V 1650 6800 50  0000 C CNN
+F 0 "TP30" V 1650 6800 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6850 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 7150 60  0001 L CNN
 F 3 "" H 1850 7250 60  0001 L CNN
@@ -1808,10 +1808,10 @@ F 3 "" H 1850 7250 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP29
 U 1 1 5E0DD5A6
 P 1650 6850
-F 0 "TP?" V 1650 6700 50  0000 C CNN
+F 0 "TP29" V 1650 6700 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6750 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 7050 60  0001 L CNN
 F 3 "" H 1850 7150 60  0001 L CNN
@@ -1819,10 +1819,10 @@ F 3 "" H 1850 7150 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP28
 U 1 1 5E0DD5AD
 P 1650 6750
-F 0 "TP?" V 1650 6600 50  0000 C CNN
+F 0 "TP28" V 1650 6600 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6650 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6950 60  0001 L CNN
 F 3 "" H 1850 7050 60  0001 L CNN
@@ -1838,10 +1838,10 @@ PIO16
 Wire Wire Line
 	2350 7050 1750 7050
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP31
 U 1 1 5E0F3F70
 P 1650 7050
-F 0 "TP?" V 1650 6900 50  0000 C CNN
+F 0 "TP31" V 1650 6900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6950 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 7250 60  0001 L CNN
 F 3 "" H 1850 7350 60  0001 L CNN
@@ -1851,10 +1851,10 @@ $EndComp
 Text Label 1750 7050 0    50   ~ 0
 PIO19
 $Comp
-L zglue-jade:zGlue-Jade U?
+L zglue-jade:zGlue-Jade U1
 U 1 1 5DB41B4F
 P 3200 3450
-F 0 "U?" H 3275 5865 50  0000 C CNN
+F 0 "U1" H 3275 5865 50  0000 C CNN
 F 1 "zGlue-Jade" H 3275 5774 50  0000 C CNN
 F 2 "lib:Z-Glue_LGA-96" H 3200 3450 50  0001 C CNN
 F 3 "" H 3200 3450 50  0001 C CNN
