@@ -1846,8 +1846,6 @@ Text Label 4350 2750 0    50   ~ 0
 FLASH_IO2
 Text Label 4350 2850 0    50   ~ 0
 FLASH_IO3
-Text Label 4350 2350 0    50   ~ 0
-FLASH_SOC_CS
 Text Label 10850 2850 0    50   ~ 0
 FLASH_CLK
 Text Label 10850 2950 0    50   ~ 0
@@ -1914,10 +1912,10 @@ F 6 "1u" H 5115 8297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP33
 U 1 1 5DB4B7D6
 P 1650 3200
-F 0 "TP?" V 1650 3100 50  0000 C CNN
+F 0 "TP33" V 1650 3100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 3100 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 3400 60  0001 L CNN
 F 3 "" H 1850 3500 60  0001 L CNN
@@ -1925,14 +1923,29 @@ F 3 "" H 1850 3500 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP32
 U 1 1 5DB4B87C
 P 1650 3100
-F 0 "TP?" V 1650 3000 50  0000 C CNN
+F 0 "TP32" V 1650 3000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 3000 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 3300 60  0001 L CNN
 F 3 "" H 1850 3400 60  0001 L CNN
 	1    1650 3100
 	0    1    1    0   
 $EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP34
+U 1 1 5DB51D00
+P 4900 5850
+F 0 "TP34" V 4900 5700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 4900 5750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5100 6050 60  0001 L CNN
+F 3 "" H 5100 6150 60  0001 L CNN
+	1    4900 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 5850 4800 5850
+Text Label 4350 2350 0    50   ~ 0
+CTRL_RST_FLASH_SOC_CS
 $EndSCHEMATC
