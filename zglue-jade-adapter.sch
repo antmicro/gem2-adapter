@@ -224,13 +224,13 @@ PROC_OUT_2
 Wire Wire Line
 	4200 4200 4800 4200
 Wire Wire Line
-	4200 4300 4800 4300
+	4200 4350 4800 4350
 Wire Wire Line
-	4200 4400 4800 4400
+	4200 4450 4800 4450
 Wire Wire Line
-	4200 4500 4800 4500
+	4200 4550 4800 4550
 Wire Wire Line
-	4200 4600 4800 4600
+	4200 4650 4800 4650
 Wire Wire Line
 	4200 4850 4800 4850
 Wire Wire Line
@@ -241,13 +241,13 @@ Wire Wire Line
 	4200 5150 4800 5150
 Text Label 4350 4200 0    50   ~ 0
 PROC_RST
-Text Label 4350 4300 0    50   ~ 0
+Text Label 1750 7050 0    50   ~ 0
 PROC_SI
-Text Label 4350 4400 0    50   ~ 0
+Text Label 1750 6950 0    50   ~ 0
 PROC_SO
-Text Label 4350 4500 0    50   ~ 0
+Text Label 1750 6750 0    50   ~ 0
 PROC_SCK
-Text Label 4350 4600 0    50   ~ 0
+Text Label 1750 6850 0    50   ~ 0
 PROC_SS
 Text Label 4350 4850 0    50   ~ 0
 CTRL_SI
@@ -1553,10 +1553,10 @@ F 3 "" H 1850 5950 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
+L antmicroTestPoints:TP_SMD1MM TP28
 U 1 1 5E08B0FD
 P 1650 5550
-F 0 "TP1" V 1650 5400 50  0000 C CNN
+F 0 "TP28" V 1650 5400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5450 50  0001 C CNN
 F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5750 60  0001 L CNN
 F 3 "" H 1850 5850 60  0001 L CNN
@@ -1677,41 +1677,19 @@ $EndComp
 Text Label 1750 6650 0    50   ~ 0
 PIO15
 Wire Wire Line
-	2350 6950 1650 6950
+	2350 6950 1750 6950
 Wire Wire Line
 	2350 6750 1750 6750
 Wire Wire Line
 	2350 6850 1750 6850
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP29
-U 1 1 5E0DD5A6
-P 1650 6850
-F 0 "TP29" V 1650 6700 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1650 6750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 7050 60  0001 L CNN
-F 3 "" H 1850 7150 60  0001 L CNN
-	1    1650 6850
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP28
-U 1 1 5E0DD5AD
-P 1650 6750
-F 0 "TP28" V 1650 6600 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1650 6650 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 6950 60  0001 L CNN
-F 3 "" H 1850 7050 60  0001 L CNN
-	1    1650 6750
-	0    1    1    0   
-$EndComp
-Text Label 1750 6850 0    50   ~ 0
-PIO17
-Text Label 1750 6750 0    50   ~ 0
-PIO16
+Text Label 1750 6550 0    50   ~ 0
+PIO14
+Text Label 1750 6450 0    50   ~ 0
+PIO13
 Wire Wire Line
-	2350 7050 1650 7050
+	2350 7050 1750 7050
 $Comp
-L zglue-jade:zGlue-Jade U1
+L zglue-jade-adapter-rescue:zGlue-Jade-zglue-jade U1
 U 1 1 5DB41B4F
 P 3200 3450
 F 0 "U1" H 3275 5865 50  0000 C CNN
@@ -2186,14 +2164,75 @@ F 3 "" H 1850 6750 60  0001 L CNN
 	1    1650 6450
 	0    1    1    0   
 $EndComp
-Text Label 1750 6450 0    50   ~ 0
+Text Label 4350 4650 0    50   ~ 0
 PROC_INT
-Text Label 1750 6550 0    50   ~ 0
+Text Label 4350 4350 0    50   ~ 0
 CSI_INT
-Text Label 1650 6950 0    50   ~ 0
+Text Label 4350 4450 0    50   ~ 0
 LP_CSI_D1_OUT_P
-Text Label 1650 7050 0    50   ~ 0
+Text Label 4350 4550 0    50   ~ 0
 LP_CSI_D1_OUT_N
 Text Notes 6450 2600 0    50   ~ 0
 DNP
+NoConn ~ 8800 2550
+NoConn ~ 8800 2650
+NoConn ~ 8800 2850
+NoConn ~ 8800 2950
+NoConn ~ 9250 2950
+NoConn ~ 9250 3050
+NoConn ~ 12300 2250
+NoConn ~ 12300 2350
+NoConn ~ 12300 2550
+NoConn ~ 12300 2650
+NoConn ~ 12300 2850
+NoConn ~ 12300 2950
+NoConn ~ 12300 3150
+Wire Wire Line
+	2350 5150 1750 5150
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP1
+U 1 1 5DF17D2C
+P 1650 5150
+F 0 "TP1" V 1650 5000 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1650 5050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5350 60  0001 L CNN
+F 3 "" H 1850 5450 60  0001 L CNN
+	1    1650 5150
+	0    1    1    0   
+$EndComp
+Text Label 1750 5150 0    50   ~ 0
+PIO0
+Text Label 7900 4600 0    50   ~ 0
+PROC_RST
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP29
+U 1 1 5DF566CE
+P 4900 4650
+F 0 "TP29" V 4900 4500 50  0000 C CNN
+F 1 "TP_SMD1MM" H 4900 4550 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5100 4850 60  0001 L CNN
+F 3 "" H 5100 4950 60  0001 L CNN
+	1    4900 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R29
+U 1 1 5DF56D0B
+P 8600 4600
+F 0 "R29" H 8800 4650 60  0000 C CNN
+F 1 "R_0R_0402" H 8600 4450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8800 4800 60  0001 L CNN
+F 3 "" H 8600 4600 50  0001 C CNN
+F 4 "PANASONIC" H 8800 5000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 8800 4900 60  0001 L CNN "MPN"
+F 6 "0R" H 8950 4650 50  0000 C CNN "Val"
+	1    8600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4600 8450 4600
+Wire Wire Line
+	8750 4600 9700 4600
+Text Label 9100 4600 0    50   ~ 0
+E_PROC_RST
 $EndSCHEMATC
