@@ -2194,4 +2194,6 @@ Text Label 1650 6950 0    50   ~ 0
 LP_CSI_D1_OUT_P
 Text Label 1650 7050 0    50   ~ 0
 LP_CSI_D1_OUT_N
+Text Notes 6450 2600 0    50   ~ 0
+DNP
 $EndSCHEMATC
