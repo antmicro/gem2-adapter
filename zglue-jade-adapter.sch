@@ -1527,9 +1527,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 5750 1750 5750
 Wire Wire Line
-	2350 5550 1750 5550
+	2350 5550 1300 5550
 Wire Wire Line
-	2350 5650 1750 5650
+	2350 5650 1300 5650
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP18
 U 1 1 5E08B0EF
@@ -1541,34 +1541,8 @@ F 3 "" H 1850 6050 60  0001 L CNN
 	1    1650 5750
 	0    1    1    0   
 $EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP2
-U 1 1 5E08B0F6
-P 1650 5650
-F 0 "TP2" V 1650 5500 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1650 5550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5850 60  0001 L CNN
-F 3 "" H 1850 5950 60  0001 L CNN
-	1    1650 5650
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP28
-U 1 1 5E08B0FD
-P 1650 5550
-F 0 "TP28" V 1650 5400 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1650 5450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 1850 5750 60  0001 L CNN
-F 3 "" H 1850 5850 60  0001 L CNN
-	1    1650 5550
-	0    1    1    0   
-$EndComp
 Text Label 1750 5750 0    50   ~ 0
 PIO6
-Text Label 1750 5650 0    50   ~ 0
-PIO5
-Text Label 1750 5550 0    50   ~ 0
-PIO4
 Wire Wire Line
 	2350 6050 1750 6050
 Wire Wire Line
@@ -2023,9 +1997,9 @@ F 4 "120R" H 12350 5365 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12200 5250 11400 5250
+	12200 5250 11150 5250
 Wire Wire Line
-	12200 6150 11400 6150
+	12200 6150 11150 6150
 $Comp
 L antmicroResistors0402:R_49R9_0402 R26
 U 1 1 5DDA56D5
@@ -2119,16 +2093,16 @@ Wire Wire Line
 	12500 6500 12800 6500
 Connection ~ 12800 6150
 Wire Wire Line
-	12200 6500 11400 6500
+	12200 6500 11150 6500
 Wire Wire Line
-	12200 4850 11400 4850
-Text Label 11500 4850 0    50   ~ 0
-LP_CSI_D1_OUT_P
-Text Label 11500 6500 0    50   ~ 0
-LP_CSI_D1_OUT_N
-Text Label 11500 5250 0    50   ~ 0
+	12200 4850 11150 4850
+Text Label 11300 4850 0    50   ~ 0
+RDL_LP_CSI_D1_OUT_P
+Text Label 11300 6500 0    50   ~ 0
+RDL_LP_CSI_D1_OUT_N
+Text Label 11300 5250 0    50   ~ 0
 CSI_D1_OUT_P
-Text Label 11500 6150 0    50   ~ 0
+Text Label 11300 6150 0    50   ~ 0
 CSI_D1_OUT_N
 Wire Wire Line
 	12800 5250 14150 5250
@@ -2138,7 +2112,7 @@ Text Label 13300 5250 0    50   ~ 0
 C_CSI_D1_OUT_P
 Text Label 13300 6150 0    50   ~ 0
 C_CSI_D1_OUT_N
-Text Notes 11950 4350 0    79   ~ 16
+Text Notes 12050 4100 0    79   ~ 16
 MIPI output
 Wire Wire Line
 	2350 6450 1750 6450
@@ -2169,9 +2143,9 @@ PROC_INT
 Text Label 4350 4350 0    50   ~ 0
 CSI_INT
 Text Label 4350 4450 0    50   ~ 0
-LP_CSI_D1_OUT_P
+RDL_LP_CSI_D1_OUT_P
 Text Label 4350 4550 0    50   ~ 0
-LP_CSI_D1_OUT_N
+RDL_LP_CSI_D1_OUT_N
 Text Notes 6450 2600 0    50   ~ 0
 DNP
 NoConn ~ 8800 2550
@@ -2235,4 +2209,57 @@ Wire Wire Line
 	8750 4600 9700 4600
 Text Label 9100 4600 0    50   ~ 0
 E_PROC_RST
+Wire Wire Line
+	12800 6500 12800 6900
+Wire Wire Line
+	12800 6900 12500 6900
+Connection ~ 12800 6500
+$Comp
+L antmicroResistors0402:R_22R_0402 R31
+U 1 1 5DCA1BF5
+P 12350 6900
+F 0 "R31" H 12350 7113 60  0000 C CNN
+F 1 "R_22R_0402" H 12350 6750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 12550 7100 60  0001 L CNN
+F 3 "" H 12350 6900 50  0001 C CNN
+F 4 "VISHAY" H 12550 7300 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 12550 7200 60  0001 L CNN "MPN"
+F 6 "22R" H 12350 7015 50  0000 C CNN "Val"
+	1    12350 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 6900 11150 6900
+Text Label 11300 6900 0    50   ~ 0
+PROG_LP_CSI_D1_OUT_N
+$Comp
+L antmicroResistors0402:R_22R_0402 R30
+U 1 1 5DD7B5FC
+P 12350 4450
+F 0 "R30" H 12350 4663 60  0000 C CNN
+F 1 "R_22R_0402" H 12350 4300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 12550 4650 60  0001 L CNN
+F 3 "" H 12350 4450 50  0001 C CNN
+F 4 "VISHAY" H 12550 4850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 12550 4750 60  0001 L CNN "MPN"
+F 6 "22R" H 12350 4565 50  0000 C CNN "Val"
+	1    12350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 4450 12800 4450
+Wire Wire Line
+	12800 4450 12800 4850
+Wire Wire Line
+	12200 4450 11150 4450
+Text Label 11300 4450 0    50   ~ 0
+PROG_LP_CSI_D1_OUT_P
+Text Notes 12500 6500 0    50   ~ 0
+DNP
+Text Notes 12500 4850 0    50   ~ 0
+DNP
+Text Label 1400 5550 0    50   ~ 0
+PROG_LP_CSI_D1_OUT_P
+Text Label 1400 5650 0    50   ~ 0
+PROG_LP_CSI_D1_OUT_N
 $EndSCHEMATC
