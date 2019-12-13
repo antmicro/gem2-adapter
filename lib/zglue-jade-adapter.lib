@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# zglue-jade-adapter_543630489
+# 543630489
 #
-DEF zglue-jade-adapter_543630489 J 0 40 Y Y 1 F N
+DEF 543630489 J 0 40 Y Y 1 F N
 F0 "J" -50 50 50 H V C CNN
-F1 "zglue-jade-adapter_543630489" 150 -50 50 H V C CNN
+F1 "543630489" 150 -50 50 H V C CNN
 F2 "zglue-jade-adapter-footprints:543630489" -250 -2350 50 H I C CNN
 F3 "" 250 -2300 50 H I C CNN
 F4 "Molex" 0 0 50 H I C CNN "Manufacturer"
@@ -56,11 +56,11 @@ X ~ 9 -100 -1050 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_C_100n_0402_6V3
+# C_100n_0402_6V3
 #
-DEF zglue-jade-adapter_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_C_100n_0402_6V3" 0 -150 60 H I C CNN
+F1 "C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
@@ -74,11 +74,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_C_10n_0402
+# C_10n_0402
 #
-DEF zglue-jade-adapter_C_10n_0402 C 0 0 Y Y 1 F N
+DEF C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_C_10n_0402" 0 -150 60 H I C CNN
+F1 "C_10n_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
@@ -92,11 +92,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_C_10u_0402
+# C_10u_0402
 #
-DEF zglue-jade-adapter_C_10u_0402 C 0 0 Y Y 1 F N
+DEF C_10u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_C_10u_0402" 0 -150 60 H I C CNN
+F1 "C_10u_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -110,11 +110,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_C_1u_0603
+# C_1u_0603
 #
-DEF zglue-jade-adapter_C_1u_0603 C 0 0 Y Y 1 F N
+DEF C_1u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_C_1u_0603" 0 -150 60 H I C CNN
+F1 "C_1u_0603" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
@@ -128,11 +128,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_C_2u2_0402
+# C_2u2_0402
 #
-DEF zglue-jade-adapter_C_2u2_0402 C 0 0 Y Y 1 F N
+DEF C_2u2_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_C_2u2_0402" 0 -150 60 H I C CNN
+F1 "C_2u2_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
@@ -146,11 +146,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_GND
+# GND
 #
-DEF zglue-jade-adapter_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "zglue-jade-adapter_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -159,11 +159,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_0R_0402
+# R_0R_0402
 #
-DEF zglue-jade-adapter_R_0R_0402 R 0 0 Y Y 1 F N
+DEF R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_0R_0402" 0 -150 60 H I C CNN
+F1 "R_0R_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
@@ -176,11 +176,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_100R_0402
+# R_100R_0402
 #
-DEF zglue-jade-adapter_R_100R_0402 R 0 0 Y Y 1 F N
+DEF R_100R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_100R_0402" 0 -150 60 H I C CNN
+F1 "R_100R_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
@@ -193,11 +193,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_1k5_0402
+# R_1k5_0402
 #
-DEF zglue-jade-adapter_R_1k5_0402 R 0 0 Y Y 1 F N
+DEF R_1k5_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_1k5_0402" 0 -150 60 H I C CNN
+F1 "R_1k5_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
@@ -210,11 +210,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_220R_0402
+# R_220R_0402
 #
-DEF zglue-jade-adapter_R_220R_0402 R 0 0 Y Y 1 F N
+DEF R_220R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_220R_0402" 0 -150 60 H I C CNN
+F1 "R_220R_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TE_CONNECTIVITY_/_NEOHM" 200 400 60 H I L CNN "Manufacturer"
@@ -227,11 +227,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_22R_0402
+# R_22R_0402
 #
-DEF zglue-jade-adapter_R_22R_0402 R 0 0 Y Y 1 F N
+DEF R_22R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_22R_0402" 0 -150 60 H I C CNN
+F1 "R_22R_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -244,11 +244,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_R_49R9_0402
+# R_49R9_0402
 #
-DEF zglue-jade-adapter_R_49R9_0402 R 0 0 Y Y 1 F N
+DEF R_49R9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-jade-adapter_R_49R9_0402" 0 -150 60 H I C CNN
+F1 "R_49R9_0402" 0 -150 60 H I C CNN
 F2 "zglue-jade-adapter-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -261,11 +261,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_TP_SMD1MM
+# TP_SMD1MM
 #
-DEF zglue-jade-adapter_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
-F1 "zglue-jade-adapter_TP_SMD1MM" 0 -100 50 H I C CNN
+F1 "TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
@@ -274,11 +274,11 @@ X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-jade-adapter_zGlue-Jade-zglue-jade
+# zGlue-Jade-zglue-jade
 #
-DEF zglue-jade-adapter_zGlue-Jade-zglue-jade U 0 40 Y Y 1 F N
+DEF zGlue-Jade-zglue-jade U 0 40 Y Y 1 F N
 F0 "U" -100 2450 50 H V C CNN
-F1 "zglue-jade-adapter_zGlue-Jade-zglue-jade" 100 2350 50 H V C CNN
+F1 "zGlue-Jade-zglue-jade" 100 2350 50 H V C CNN
 F2 "zglue-jade-adapter-footprints:Z-Glue_LGA-96" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
