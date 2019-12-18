@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name zglue-jade-adapter)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-jade-adapter.lib)(options "")(descr ""))
+  (lib (name zglue-jade-adapter)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-gem2-adapter.lib)(options "")(descr ""))
 )

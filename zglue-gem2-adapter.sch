@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
+LIBS:zglue-gem2-adapter-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "zGlue Jade Adapter"
+Title "zGlue GEM2 Adapter"
 Date ""
 Rev "1.0"
 Comp "Antmicro"
