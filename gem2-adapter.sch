@@ -74,45 +74,45 @@ Text Label 1750 4000 0    50   ~ 0
 Text Label 1750 4100 0    50   ~ 0
 2V5
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP8
+L gem2-adapter:TP_SMD1MM TP8
 U 1 1 5D8CA5C3
 P 1650 4600
 F 0 "TP8" V 1650 4500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 4500 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 4800 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 4800 60  0001 L CNN
 F 3 "" H 1850 4900 60  0001 L CNN
 	1    1650 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP5
+L gem2-adapter:TP_SMD1MM TP5
 U 1 1 5D8CA6F0
 P 1650 4300
 F 0 "TP5" V 1650 4200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 4200 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 4500 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 4500 60  0001 L CNN
 F 3 "" H 1850 4600 60  0001 L CNN
 	1    1650 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP6
+L gem2-adapter:TP_SMD1MM TP6
 U 1 1 5D8CA73B
 P 1650 4400
 F 0 "TP6" V 1650 4300 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 4300 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 4600 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 4600 60  0001 L CNN
 F 3 "" H 1850 4700 60  0001 L CNN
 	1    1650 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP3
+L gem2-adapter:TP_SMD1MM TP3
 U 1 1 5D8CA753
 P 1650 2500
 F 0 "TP3" V 1650 2400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 2400 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 2700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 2700 60  0001 L CNN
 F 3 "" H 1850 2800 60  0001 L CNN
 	1    1650 2500
 	0    1    1    0   
@@ -162,12 +162,12 @@ CSI_D2_IN_P
 Text Label 1750 1850 0    50   ~ 0
 CSI_D2_IN_N
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP14
+L gem2-adapter:TP_SMD1MM TP14
 U 1 1 5D8F3A5B
 P 4900 3500
 F 0 "TP14" V 4900 3350 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 3400 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 3700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 3700 60  0001 L CNN
 F 3 "" H 5100 3800 60  0001 L CNN
 	1    4900 3500
 	0    -1   -1   0   
@@ -185,23 +185,23 @@ LED2_ISINK
 Text Label 4350 3700 0    50   ~ 0
 LED3_ISINK
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP15
+L gem2-adapter:TP_SMD1MM TP15
 U 1 1 5D8F8F8D
 P 4900 3600
 F 0 "TP15" V 4900 3450 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 3500 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 3800 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 3800 60  0001 L CNN
 F 3 "" H 5100 3900 60  0001 L CNN
 	1    4900 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP16
+L gem2-adapter:TP_SMD1MM TP16
 U 1 1 5D8F8FB7
 P 4900 3700
 F 0 "TP16" V 4900 3550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 3600 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 3900 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 3900 60  0001 L CNN
 F 3 "" H 5100 4000 60  0001 L CNN
 	1    4900 3700
 	0    -1   -1   0   
@@ -269,12 +269,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 4600 1750 4600
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP7
+L gem2-adapter:TP_SMD1MM TP7
 U 1 1 5D9289B9
 P 1650 4500
 F 0 "TP7" V 1650 4400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 4400 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 4700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 4700 60  0001 L CNN
 F 3 "" H 1850 4800 60  0001 L CNN
 	1    1650 4500
 	0    1    1    0   
@@ -288,23 +288,23 @@ Wire Wire Line
 Text Label 1750 2700 0    50   ~ 0
 PC_RDY
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP4
+L gem2-adapter:TP_SMD1MM TP4
 U 1 1 5D92BE5C
 P 1650 2700
 F 0 "TP4" V 1650 2600 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 2600 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 2900 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 2900 60  0001 L CNN
 F 3 "" H 1850 3000 60  0001 L CNN
 	1    1650 2700
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP13
+L gem2-adapter:TP_SMD1MM TP13
 U 1 1 5D92F140
 P 4850 6550
 F 0 "TP13" V 4850 6400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4850 6450 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5050 6750 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5050 6750 60  0001 L CNN
 F 3 "" H 5050 6850 60  0001 L CNN
 	1    4850 6550
 	0    -1   -1   0   
@@ -314,12 +314,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 6450 4750 6450
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP12
+L gem2-adapter:TP_SMD1MM TP12
 U 1 1 5D935A2A
 P 4850 6450
 F 0 "TP12" V 4850 6300 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4850 6350 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5050 6650 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5050 6650 60  0001 L CNN
 F 3 "" H 5050 6750 60  0001 L CNN
 	1    4850 6450
 	0    -1   -1   0   
@@ -329,12 +329,12 @@ Wire Wire Line
 Text Label 4350 5750 0    50   ~ 0
 SYS_CLK
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP17
+L gem2-adapter:TP_SMD1MM TP17
 U 1 1 5D9390AB
 P 4900 5750
 F 0 "TP17" V 4900 5600 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 5650 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 5950 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 5950 60  0001 L CNN
 F 3 "" H 5100 6050 60  0001 L CNN
 	1    4900 5750
 	0    -1   -1   0   
@@ -382,40 +382,40 @@ Wire Wire Line
 Wire Wire Line
 	2350 5350 1750 5350
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP9
+L gem2-adapter:TP_SMD1MM TP9
 U 1 1 5D971A5D
 P 1650 5450
 F 0 "TP9" V 1650 5300 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5350 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 5650 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 5650 60  0001 L CNN
 F 3 "" H 1850 5750 60  0001 L CNN
 	1    1650 5450
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP10
+L gem2-adapter:TP_SMD1MM TP10
 U 1 1 5D971AC3
 P 1650 5350
 F 0 "TP10" V 1650 5200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5250 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 5550 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 5550 60  0001 L CNN
 F 3 "" H 1850 5650 60  0001 L CNN
 	1    1650 5350
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP11
+L gem2-adapter:TP_SMD1MM TP11
 U 1 1 5D971AF5
 P 1650 5250
 F 0 "TP11" V 1650 5100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5150 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 5450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 5450 60  0001 L CNN
 F 3 "" H 1850 5550 60  0001 L CNN
 	1    1650 5250
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR02
+L gem2-adapter:GND #PWR02
 U 1 1 5D971BCB
 P 1650 3400
 F 0 "#PWR02" H 1650 3150 50  0001 C CNN
@@ -450,12 +450,12 @@ Text Label 6350 10500 0    50   ~ 0
 Text Notes 1600 850  0    79   ~ 16
 GEM2 IC
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C5
+L gem2-adapter:C_100n_0402_6V3 C5
 U 1 1 5DA00317
 P 7650 8250
 F 0 "C5" H 7765 8295 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7650 8100 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 7850 8450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 7850 8450 60  0001 L CNN
 F 3 "" H 7650 8250 50  0001 C CNN
 F 4 "Walsin" H 7850 8650 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7850 8550 60  0001 L CNN "MPN"
@@ -464,7 +464,7 @@ F 6 "100n" H 7765 8197 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR03
+L gem2-adapter:GND #PWR03
 U 1 1 5DA0044B
 P 6600 8400
 F 0 "#PWR03" H 6600 8150 50  0001 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 6600 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR08
+L gem2-adapter:GND #PWR08
 U 1 1 5DA004B2
 P 7650 8400
 F 0 "#PWR08" H 7650 8150 50  0001 C CNN
@@ -486,12 +486,12 @@ F 3 "" H 7650 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R1
+L gem2-adapter:R_0R_0402 R1
 U 1 1 5DA005FB
 P 7150 8100
 F 0 "R1" H 7150 8313 60  0000 C CNN
 F 1 "R_0R_0402" H 7150 7950 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 7350 8300 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 7350 8300 60  0001 L CNN
 F 3 "" H 7150 8100 50  0001 C CNN
 F 4 "PANASONIC" H 7350 8500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7350 8400 60  0001 L CNN "MPN"
@@ -511,12 +511,12 @@ Voltage filtering
 Text Label 7900 8800 0    50   ~ 0
 1V8_SYS
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C6
+L gem2-adapter:C_100n_0402_6V3 C6
 U 1 1 5DA29CBF
 P 7650 8950
 F 0 "C6" H 7765 8995 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7650 8800 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 7850 9150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 7850 9150 60  0001 L CNN
 F 3 "" H 7650 8950 50  0001 C CNN
 F 4 "Walsin" H 7850 9350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7850 9250 60  0001 L CNN "MPN"
@@ -525,7 +525,7 @@ F 6 "100n" H 7765 8897 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR04
+L gem2-adapter:GND #PWR04
 U 1 1 5DA29CC6
 P 6600 9100
 F 0 "#PWR04" H 6600 8850 50  0001 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 6600 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR09
+L gem2-adapter:GND #PWR09
 U 1 1 5DA29CCC
 P 7650 9100
 F 0 "#PWR09" H 7650 8850 50  0001 C CNN
@@ -547,12 +547,12 @@ F 3 "" H 7650 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R2
+L gem2-adapter:R_0R_0402 R2
 U 1 1 5DA29CD5
 P 7150 8800
 F 0 "R2" H 7150 9013 60  0000 C CNN
 F 1 "R_0R_0402" H 7150 8650 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 7350 9000 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 7350 9000 60  0001 L CNN
 F 3 "" H 7150 8800 50  0001 C CNN
 F 4 "PANASONIC" H 7350 9200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7350 9100 60  0001 L CNN "MPN"
@@ -566,12 +566,12 @@ Connection ~ 7650 8800
 Wire Wire Line
 	7000 8800 6600 8800
 $Comp
-L zglue-jade-adapter:C_2u2_0402 C2
+L gem2-adapter:C_2u2_0402 C2
 U 1 1 5DA30683
 P 6600 8950
 F 0 "C2" H 6350 9000 60  0000 L CNN
 F 1 "C_2u2_0402" H 6600 8800 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 6800 9150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 6800 9150 60  0001 L CNN
 F 3 "" H 6600 8950 50  0001 C CNN
 F 4 "TDK" H 6800 9350 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 6800 9250 60  0001 L CNN "MPN"
@@ -580,7 +580,7 @@ F 6 "2u2" H 6350 8900 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR06
+L gem2-adapter:GND #PWR06
 U 1 1 5DA307EF
 P 6600 10800
 F 0 "#PWR06" H 6600 10550 50  0001 C CNN
@@ -591,12 +591,12 @@ F 3 "" H 6600 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R4
+L gem2-adapter:R_0R_0402 R4
 U 1 1 5DA307FE
 P 6850 10500
 F 0 "R4" H 6850 10713 60  0000 C CNN
 F 1 "R_0R_0402" H 6850 10350 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 7050 10700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 7050 10700 60  0001 L CNN
 F 3 "" H 6850 10500 50  0001 C CNN
 F 4 "PANASONIC" H 7050 10900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7050 10800 60  0001 L CNN "MPN"
@@ -607,12 +607,12 @@ $EndComp
 Wire Wire Line
 	6700 10500 6600 10500
 $Comp
-L zglue-jade-adapter:C_2u2_0402 C4
+L gem2-adapter:C_2u2_0402 C4
 U 1 1 5DA3080C
 P 6600 10650
 F 0 "C4" H 6350 10700 60  0000 L CNN
 F 1 "C_2u2_0402" H 6600 10500 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 6800 10850 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 6800 10850 60  0001 L CNN
 F 3 "" H 6600 10650 50  0001 C CNN
 F 4 "TDK" H 6800 11050 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 6800 10950 60  0001 L CNN "MPN"
@@ -625,12 +625,12 @@ Text Label 7900 10500 0    50   ~ 0
 Text Label 8750 9550 0    50   ~ 0
 1V2_SYS
 $Comp
-L zglue-jade-adapter:R_100R_0402 R9
+L gem2-adapter:R_100R_0402 R9
 U 1 1 5DAD7DDD
 P 9350 9550
 F 0 "R9" H 9300 9650 60  0000 C CNN
 F 1 "R_100R_0402" H 9350 9400 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 9550 9750 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 9550 9750 60  0001 L CNN
 F 3 "" H 9350 9550 50  0001 C CNN
 F 4 "BOURNS" H 9550 9950 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 9550 9850 60  0001 L CNN "MPN"
@@ -641,12 +641,12 @@ $EndComp
 Wire Wire Line
 	9500 9550 9750 9550
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C14
+L gem2-adapter:C_100n_0402_6V3 C14
 U 1 1 5DB185A4
 P 9750 10050
 F 0 "C14" H 9865 10095 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9750 9900 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 9950 10250 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 9950 10250 60  0001 L CNN
 F 3 "" H 9750 10050 50  0001 C CNN
 F 4 "Walsin" H 9950 10450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9950 10350 60  0001 L CNN "MPN"
@@ -655,12 +655,12 @@ F 6 "100n" H 9865 9997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:C_10n_0402 C15
+L gem2-adapter:C_10n_0402 C15
 U 1 1 5DB289F4
 P 10150 10050
 F 0 "C15" H 10265 10095 60  0000 L CNN
 F 1 "C_10n_0402" H 10150 9900 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 10350 10250 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 10350 10250 60  0001 L CNN
 F 3 "" H 10150 10050 50  0001 C CNN
 F 4 "AVX" H 10350 10450 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 10350 10350 60  0001 L CNN "MPN"
@@ -669,7 +669,7 @@ F 6 "10n" H 10265 9997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR017
+L gem2-adapter:GND #PWR017
 U 1 1 5DB28B4C
 P 9750 10200
 F 0 "#PWR017" H 9750 9950 50  0001 C CNN
@@ -680,7 +680,7 @@ F 3 "" H 9750 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR019
+L gem2-adapter:GND #PWR019
 U 1 1 5DB28BA5
 P 10150 10200
 F 0 "#PWR019" H 10150 9950 50  0001 C CNN
@@ -707,12 +707,12 @@ Text Label 6350 9550 0    50   ~ 0
 Text Label 7900 9550 0    50   ~ 0
 2V5_SYS
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C7
+L gem2-adapter:C_100n_0402_6V3 C7
 U 1 1 5DB84A77
 P 7650 9700
 F 0 "C7" H 7765 9745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7650 9550 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 7850 9900 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 7850 9900 60  0001 L CNN
 F 3 "" H 7650 9700 50  0001 C CNN
 F 4 "Walsin" H 7850 10100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7850 10000 60  0001 L CNN "MPN"
@@ -721,7 +721,7 @@ F 6 "100n" H 7765 9647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR05
+L gem2-adapter:GND #PWR05
 U 1 1 5DB84A7E
 P 6550 9850
 F 0 "#PWR05" H 6550 9600 50  0001 C CNN
@@ -732,7 +732,7 @@ F 3 "" H 6550 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR010
+L gem2-adapter:GND #PWR010
 U 1 1 5DB84A84
 P 7650 9850
 F 0 "#PWR010" H 7650 9600 50  0001 C CNN
@@ -743,12 +743,12 @@ F 3 "" H 7650 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R3
+L gem2-adapter:R_0R_0402 R3
 U 1 1 5DB84A8D
 P 7150 9550
 F 0 "R3" H 7150 9763 60  0000 C CNN
 F 1 "R_0R_0402" H 7150 9400 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 7350 9750 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 7350 9750 60  0001 L CNN
 F 3 "" H 7150 9550 50  0001 C CNN
 F 4 "PANASONIC" H 7350 9950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7350 9850 60  0001 L CNN "MPN"
@@ -761,12 +761,12 @@ Wire Wire Line
 Wire Wire Line
 	7000 9550 6550 9550
 $Comp
-L zglue-jade-adapter:C_2u2_0402 C3
+L gem2-adapter:C_2u2_0402 C3
 U 1 1 5DB84A9B
 P 6550 9700
 F 0 "C3" H 6300 9750 60  0000 L CNN
 F 1 "C_2u2_0402" H 6550 9550 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 6750 9900 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 6750 9900 60  0001 L CNN
 F 3 "" H 6550 9700 50  0001 C CNN
 F 4 "TDK" H 6750 10100 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 6750 10000 60  0001 L CNN "MPN"
@@ -775,7 +775,7 @@ F 6 "2u2" H 6300 9650 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR014
+L gem2-adapter:GND #PWR014
 U 1 1 5DBB37C8
 P 10150 8550
 F 0 "#PWR014" H 10150 8300 50  0001 C CNN
@@ -788,12 +788,12 @@ $EndComp
 Text Label 8750 8100 0    50   ~ 0
 VUSB
 $Comp
-L zglue-jade-adapter:R_0R_0402 R7
+L gem2-adapter:R_0R_0402 R7
 U 1 1 5DBC635C
 P 9350 7900
 F 0 "R7" H 9300 8000 60  0000 C CNN
 F 1 "R_0R_0402" H 9350 7750 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 9550 8100 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 9550 8100 60  0001 L CNN
 F 3 "" H 9350 7900 50  0001 C CNN
 F 4 "PANASONIC" H 9550 8300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9550 8200 60  0001 L CNN "MPN"
@@ -802,12 +802,12 @@ F 6 "0R" H 9450 8000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R8
+L gem2-adapter:R_0R_0402 R8
 U 1 1 5DBC6690
 P 9350 8100
 F 0 "R8" H 9300 8200 60  0000 C CNN
 F 1 "R_0R_0402" H 9350 7950 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 9550 8300 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 9550 8300 60  0001 L CNN
 F 3 "" H 9350 8100 50  0001 C CNN
 F 4 "PANASONIC" H 9550 8500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9550 8400 60  0001 L CNN "MPN"
@@ -827,7 +827,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 8100 9700 8100
 $Comp
-L zglue-jade-adapter:GND #PWR013
+L gem2-adapter:GND #PWR013
 U 1 1 5DBFF3AE
 P 9700 8550
 F 0 "#PWR013" H 9700 8300 50  0001 C CNN
@@ -838,12 +838,12 @@ F 3 "" H 9700 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C10
+L gem2-adapter:C_100n_0402_6V3 C10
 U 1 1 5DBFF3B7
 P 9700 8400
 F 0 "C10" H 9400 8450 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9700 8250 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 9900 8600 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 9900 8600 60  0001 L CNN
 F 3 "" H 9700 8400 50  0001 C CNN
 F 4 "Walsin" H 9900 8800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9900 8700 60  0001 L CNN "MPN"
@@ -978,12 +978,12 @@ Text Label 9500 3350 0    50   ~ 0
 Text Label 9500 3150 0    50   ~ 0
 1V2_SYS
 $Comp
-L zglue-jade-adapter:R_1k5_0402 R11
+L gem2-adapter:R_1k5_0402 R11
 U 1 1 5DCE918C
 P 11850 8175
 F 0 "R11" V 11800 7925 60  0000 L CNN
 F 1 "R_1k5_0402" H 11850 8025 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12050 8375 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12050 8375 60  0001 L CNN
 F 3 "" H 11850 8175 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 12050 8575 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 12050 8475 60  0001 L CNN "MPN"
@@ -1000,12 +1000,12 @@ Wire Wire Line
 Text Notes 8800 1400 0    50   ~ 0
 Mating - 556500488
 $Comp
-L zglue-jade-adapter:543630489 J1
+L gem2-adapter:543630489 J1
 U 1 1 5DD17041
 P 8900 1300
 F 0 "J1" H 8900 1450 50  0000 C CNN
 F 1 "543630489" H 9050 1350 50  0000 C CNN
-F 2 "zglue-jade-adapter-footprints:543630489" H 8650 -1050 50  0001 C CNN
+F 2 "gem2-adapter-footprints:543630489" H 8650 -1050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9150 -1000 50  0001 C CNN
 F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
 F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1017,7 +1017,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 1550 8750 1850
 $Comp
-L zglue-jade-adapter:GND #PWR020
+L gem2-adapter:GND #PWR020
 U 1 1 5DD41DEC
 P 8750 3650
 F 0 "#PWR020" H 8750 3400 50  0001 C CNN
@@ -1028,7 +1028,7 @@ F 3 "" H 8750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR021
+L gem2-adapter:GND #PWR021
 U 1 1 5DD4C734
 P 9300 3650
 F 0 "#PWR021" H 9300 3400 50  0001 C CNN
@@ -1133,7 +1133,7 @@ Baseboard connectors
 Wire Wire Line
 	13200 1650 12300 1650
 $Comp
-L zglue-jade-adapter:GND #PWR023
+L gem2-adapter:GND #PWR023
 U 1 1 5E03411C
 P 12350 3550
 F 0 "#PWR023" H 12350 3300 50  0001 C CNN
@@ -1217,7 +1217,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 1850 10850 1850
 $Comp
-L zglue-jade-adapter:GND #PWR022
+L gem2-adapter:GND #PWR022
 U 1 1 5E378B12
 P 11800 3550
 F 0 "#PWR022" H 11800 3300 50  0001 C CNN
@@ -1228,12 +1228,12 @@ F 3 "" H 11800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:543630489 J2
+L gem2-adapter:543630489 J2
 U 1 1 5DD17377
 P 11950 1300
 F 0 "J2" H 11850 1450 50  0000 C CNN
 F 1 "543630489" H 12050 1350 50  0000 C CNN
-F 2 "zglue-jade-adapter-footprints:543630489" H 11700 -1050 50  0001 C CNN
+F 2 "gem2-adapter-footprints:543630489" H 11700 -1050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 12200 -1000 50  0001 C CNN
 F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
 F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1257,12 +1257,12 @@ Wire Wire Line
 Wire Wire Line
 	11850 2550 10850 2550
 $Comp
-L zglue-jade-adapter:R_0R_0402 R15
+L gem2-adapter:R_0R_0402 R15
 U 1 1 5E427308
 P 8600 4800
 F 0 "R15" H 8800 4850 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4650 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 5000 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 5000 60  0001 L CNN
 F 3 "" H 8600 4800 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5100 60  0001 L CNN "MPN"
@@ -1281,12 +1281,12 @@ PROC_SS
 Wire Wire Line
 	7900 4800 8450 4800
 $Comp
-L zglue-jade-adapter:R_0R_0402 R16
+L gem2-adapter:R_0R_0402 R16
 U 1 1 5E4A2EF4
 P 8600 4950
 F 0 "R16" H 8800 5000 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4800 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 5150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 5150 60  0001 L CNN
 F 3 "" H 8600 4950 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5250 60  0001 L CNN "MPN"
@@ -1297,12 +1297,12 @@ $EndComp
 Wire Wire Line
 	7900 4950 8450 4950
 $Comp
-L zglue-jade-adapter:R_0R_0402 R17
+L gem2-adapter:R_0R_0402 R17
 U 1 1 5E4B81FF
 P 8600 5100
 F 0 "R17" H 8800 5150 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4950 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 5300 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 5300 60  0001 L CNN
 F 3 "" H 8600 5100 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5400 60  0001 L CNN "MPN"
@@ -1313,12 +1313,12 @@ $EndComp
 Wire Wire Line
 	7900 5100 8450 5100
 $Comp
-L zglue-jade-adapter:R_0R_0402 R18
+L gem2-adapter:R_0R_0402 R18
 U 1 1 5E4CDB99
 P 8600 5250
 F 0 "R18" H 8800 5300 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5100 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 5450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 5450 60  0001 L CNN
 F 3 "" H 8600 5250 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5550 60  0001 L CNN "MPN"
@@ -1329,12 +1329,12 @@ $EndComp
 Wire Wire Line
 	7900 5250 8450 5250
 $Comp
-L zglue-jade-adapter:R_0R_0402 R19
+L gem2-adapter:R_0R_0402 R19
 U 1 1 5E57F379
 P 8600 5650
 F 0 "R19" H 8800 5700 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5500 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 5850 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 5850 60  0001 L CNN
 F 3 "" H 8600 5650 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5950 60  0001 L CNN "MPN"
@@ -1345,12 +1345,12 @@ $EndComp
 Wire Wire Line
 	7900 5650 8450 5650
 $Comp
-L zglue-jade-adapter:R_0R_0402 R20
+L gem2-adapter:R_0R_0402 R20
 U 1 1 5E57F389
 P 8600 5800
 F 0 "R20" H 8800 5850 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5650 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 6000 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 6000 60  0001 L CNN
 F 3 "" H 8600 5800 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6100 60  0001 L CNN "MPN"
@@ -1361,12 +1361,12 @@ $EndComp
 Wire Wire Line
 	7900 5800 8450 5800
 $Comp
-L zglue-jade-adapter:R_0R_0402 R21
+L gem2-adapter:R_0R_0402 R21
 U 1 1 5E57F395
 P 8600 5950
 F 0 "R21" H 8800 6000 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5800 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 6150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 6150 60  0001 L CNN
 F 3 "" H 8600 5950 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6250 60  0001 L CNN "MPN"
@@ -1377,12 +1377,12 @@ $EndComp
 Wire Wire Line
 	7900 5950 8450 5950
 $Comp
-L zglue-jade-adapter:R_0R_0402 R22
+L gem2-adapter:R_0R_0402 R22
 U 1 1 5E57F3A1
 P 8600 6100
 F 0 "R22" H 8800 6150 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5950 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 6300 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 6300 60  0001 L CNN
 F 3 "" H 8600 6100 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6400 60  0001 L CNN "MPN"
@@ -1457,7 +1457,7 @@ LED2_ISINK
 Text Label 9500 2550 0    50   ~ 0
 LED3_ISINK
 $Comp
-L zglue-jade-adapter:GND #PWR012
+L gem2-adapter:GND #PWR012
 U 1 1 5DA7B06F
 P 7650 10850
 F 0 "#PWR012" H 7650 10600 50  0001 C CNN
@@ -1468,12 +1468,12 @@ F 3 "" H 7650 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:C_100n_0402_6V3 C9
+L gem2-adapter:C_100n_0402_6V3 C9
 U 1 1 5DA37CD2
 P 7650 10700
 F 0 "C9" H 7765 10745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 7650 10550 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 7850 10900 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 7850 10900 60  0001 L CNN
 F 3 "" H 7650 10700 50  0001 C CNN
 F 4 "Walsin" H 7850 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7850 11000 60  0001 L CNN "MPN"
@@ -1482,7 +1482,7 @@ F 6 "100n" H 7765 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:GND #PWR0101
+L gem2-adapter:GND #PWR0101
 U 1 1 5DBC7F26
 P 1600 2800
 F 0 "#PWR0101" H 1600 2550 50  0001 C CNN
@@ -1503,7 +1503,7 @@ Wire Wire Line
 Text Label 1750 3700 0    50   ~ 0
 RAVEN_VCC
 $Comp
-L zglue-jade-adapter:GND #PWR0102
+L gem2-adapter:GND #PWR0102
 U 1 1 5E01A99B
 P 4450 7100
 F 0 "#PWR0102" H 4450 6850 50  0001 C CNN
@@ -1530,12 +1530,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 5650 1300 5650
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP18
+L gem2-adapter:TP_SMD1MM TP18
 U 1 1 5E08B0EF
 P 1650 5750
 F 0 "TP18" V 1650 5600 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5650 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 5950 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 5950 60  0001 L CNN
 F 3 "" H 1850 6050 60  0001 L CNN
 	1    1650 5750
 	0    1    1    0   
@@ -1549,34 +1549,34 @@ Wire Wire Line
 Wire Wire Line
 	2350 5950 1750 5950
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP21
+L gem2-adapter:TP_SMD1MM TP21
 U 1 1 5E09E6BC
 P 1650 6050
 F 0 "TP21" V 1650 5900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5950 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6250 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6250 60  0001 L CNN
 F 3 "" H 1850 6350 60  0001 L CNN
 	1    1650 6050
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP20
+L gem2-adapter:TP_SMD1MM TP20
 U 1 1 5E09E6C3
 P 1650 5950
 F 0 "TP20" V 1650 5800 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5850 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6150 60  0001 L CNN
 F 3 "" H 1850 6250 60  0001 L CNN
 	1    1650 5950
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP19
+L gem2-adapter:TP_SMD1MM TP19
 U 1 1 5E09E6CA
 P 1650 5850
 F 0 "TP19" V 1650 5700 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5750 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6050 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6050 60  0001 L CNN
 F 3 "" H 1850 6150 60  0001 L CNN
 	1    1650 5850
 	0    1    1    0   
@@ -1594,34 +1594,34 @@ Wire Wire Line
 Wire Wire Line
 	2350 6250 1750 6250
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP24
+L gem2-adapter:TP_SMD1MM TP24
 U 1 1 5E0B2973
 P 1650 6350
 F 0 "TP24" V 1650 6200 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6250 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6550 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6550 60  0001 L CNN
 F 3 "" H 1850 6650 60  0001 L CNN
 	1    1650 6350
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP23
+L gem2-adapter:TP_SMD1MM TP23
 U 1 1 5E0B297A
 P 1650 6250
 F 0 "TP23" V 1650 6100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6150 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6450 60  0001 L CNN
 F 3 "" H 1850 6550 60  0001 L CNN
 	1    1650 6250
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP22
+L gem2-adapter:TP_SMD1MM TP22
 U 1 1 5E0B2981
 P 1650 6150
 F 0 "TP22" V 1650 6000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6050 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6350 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6350 60  0001 L CNN
 F 3 "" H 1850 6450 60  0001 L CNN
 	1    1650 6150
 	0    1    1    0   
@@ -1637,12 +1637,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 6550 1750 6550
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP27
+L gem2-adapter:TP_SMD1MM TP27
 U 1 1 5E0C7911
 P 1650 6650
 F 0 "TP27" V 1650 6500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6550 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6850 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6850 60  0001 L CNN
 F 3 "" H 1850 6950 60  0001 L CNN
 	1    1650 6650
 	0    1    1    0   
@@ -1715,12 +1715,12 @@ Connection ~ 6600 10500
 Wire Wire Line
 	6600 10500 6350 10500
 $Comp
-L zglue-jade-adapter:C_10u_0402 C1
+L gem2-adapter:C_10u_0402 C1
 U 1 1 5DA0000B
 P 6600 8250
 F 0 "C1" H 6350 8300 60  0000 L CNN
 F 1 "C_10u_0402" H 6600 8100 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-cap" H 6800 8450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-cap" H 6800 8450 60  0001 L CNN
 F 3 "" H 6600 8250 50  0001 C CNN
 F 4 "TDK" H 6800 8650 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R0J106M050BC" H 6800 8550 60  0001 L CNN "MPN"
@@ -1745,12 +1745,12 @@ Connection ~ 7650 9550
 Wire Wire Line
 	7300 9550 7650 9550
 $Comp
-L zglue-jade-adapter:C_1u_0603 C11
+L gem2-adapter:C_1u_0603 C11
 U 1 1 5DB7F637
 P 10150 8400
 F 0 "C11" H 10265 8445 60  0000 L CNN
 F 1 "C_1u_0603" H 10150 8250 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0603-cap" H 10350 8600 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0603-cap" H 10350 8600 60  0001 L CNN
 F 3 "" H 10150 8400 50  0001 C CNN
 F 4 "WALSIN" H 10350 8800 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 10350 8700 60  0001 L CNN "MPN"
@@ -1759,34 +1759,34 @@ F 6 "1u" H 10265 8347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP33
+L gem2-adapter:TP_SMD1MM TP33
 U 1 1 5DB4B7D6
 P 1650 3200
 F 0 "TP33" V 1650 3100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 3100 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 3400 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 3400 60  0001 L CNN
 F 3 "" H 1850 3500 60  0001 L CNN
 	1    1650 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP32
+L gem2-adapter:TP_SMD1MM TP32
 U 1 1 5DB4B87C
 P 1650 3100
 F 0 "TP32" V 1650 3000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 3000 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 3300 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 3300 60  0001 L CNN
 F 3 "" H 1850 3400 60  0001 L CNN
 	1    1650 3100
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP34
+L gem2-adapter:TP_SMD1MM TP34
 U 1 1 5DB51D00
 P 4900 5850
 F 0 "TP34" V 4900 5700 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 5750 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 6050 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 6050 60  0001 L CNN
 F 3 "" H 5100 6150 60  0001 L CNN
 	1    4900 5850
 	0    -1   -1   0   
@@ -1803,12 +1803,12 @@ Connection ~ 7650 10500
 Wire Wire Line
 	7650 10500 8250 10500
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP35
+L gem2-adapter:TP_SMD1MM TP35
 U 1 1 5DB9F4E8
 P 1600 3800
 F 0 "TP35" V 1600 3700 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1600 3700 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1800 4000 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1800 4000 60  0001 L CNN
 F 3 "" H 1800 4100 60  0001 L CNN
 	1    1600 3800
 	0    1    1    0   
@@ -1818,12 +1818,12 @@ Wire Wire Line
 Wire Wire Line
 	7000 10500 7650 10500
 $Comp
-L zglue-jade-adapter:R_0R_0402 R5
+L gem2-adapter:R_0R_0402 R5
 U 1 1 5DBBA26F
 P 6300 2500
 F 0 "R5" H 6300 2713 60  0000 C CNN
 F 1 "R_0R_0402" H 6300 2350 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 6500 2700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 6500 2700 60  0001 L CNN
 F 3 "" H 6300 2500 50  0001 C CNN
 F 4 "PANASONIC" H 6500 2900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6500 2800 60  0001 L CNN "MPN"
@@ -1833,12 +1833,12 @@ F 7 "1" H 6300 2500 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R6
+L gem2-adapter:R_0R_0402 R6
 U 1 1 5DBBA3AD
 P 6300 2950
 F 0 "R6" H 6300 3163 60  0000 C CNN
 F 1 "R_0R_0402" H 6300 2800 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 6500 3150 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 6500 3150 60  0001 L CNN
 F 3 "" H 6300 2950 50  0001 C CNN
 F 4 "PANASONIC" H 6500 3350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6500 3250 60  0001 L CNN "MPN"
@@ -1868,12 +1868,12 @@ Text Label 5600 2950 0    50   ~ 0
 Text Label 5600 2500 0    50   ~ 0
 1V8_SYS
 $Comp
-L zglue-jade-adapter:R_100R_0402 R12
+L gem2-adapter:R_100R_0402 R12
 U 1 1 5DC3B849
 P 13300 8175
 F 0 "R12" V 13255 8245 60  0000 L CNN
 F 1 "R_100R_0402" H 13300 8025 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 13500 8375 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 13500 8375 60  0001 L CNN
 F 3 "" H 13300 8175 50  0001 C CNN
 F 4 "BOURNS" H 13500 8575 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13500 8475 60  0001 L CNN "MPN"
@@ -1890,12 +1890,12 @@ CSI_CLK_IN_P
 Text Label 13750 8325 0    50   ~ 0
 CSI_CLK_IN_N
 $Comp
-L zglue-jade-adapter:R_100R_0402 R13
+L gem2-adapter:R_100R_0402 R13
 U 1 1 5DC8AA98
 P 13300 8775
 F 0 "R13" V 13255 8845 60  0000 L CNN
 F 1 "R_100R_0402" H 13300 8625 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 13500 8975 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 13500 8975 60  0001 L CNN
 F 3 "" H 13300 8775 50  0001 C CNN
 F 4 "BOURNS" H 13500 9175 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13500 9075 60  0001 L CNN "MPN"
@@ -1908,12 +1908,12 @@ Wire Wire Line
 Wire Wire Line
 	13300 8925 14500 8925
 $Comp
-L zglue-jade-adapter:R_100R_0402 R28
+L gem2-adapter:R_100R_0402 R28
 U 1 1 5DCA538B
 P 13300 9275
 F 0 "R28" V 13255 9345 60  0000 L CNN
 F 1 "R_100R_0402" H 13300 9125 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 13500 9475 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 13500 9475 60  0001 L CNN
 F 3 "" H 13300 9275 50  0001 C CNN
 F 4 "BOURNS" H 13500 9675 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 13500 9575 60  0001 L CNN "MPN"
@@ -1936,12 +1936,12 @@ CSI_D2_IN_N
 Text Label 12100 9300 0    50   ~ 0
 CSI_INT
 $Comp
-L zglue-jade-adapter:R_220R_0402 R10
+L gem2-adapter:R_220R_0402 R10
 U 1 1 5DCC486C
 P 11600 9150
 F 0 "R10" V 11555 9220 60  0000 L CNN
 F 1 "R_220R_0402" H 11600 9000 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 11800 9350 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 11800 9350 60  0001 L CNN
 F 3 "" H 11600 9150 50  0001 C CNN
 F 4 "TE_CONNECTIVITY_/_NEOHM" H 11800 9550 60  0001 L CNN "Manufacturer"
 F 5 "CRG0402J220R" H 11800 9450 60  0001 L CNN "MPN"
@@ -1960,12 +1960,12 @@ MIPI termination
 Text Notes 11650 8750 0    79   ~ 16
 CSI INT
 $Comp
-L zglue-jade-adapter:R_100R_0402 R24
+L gem2-adapter:R_100R_0402 R24
 U 1 1 5DD36757
 P 12350 6150
 F 0 "R24" H 12350 6363 60  0000 C CNN
 F 1 "R_120R_0402" H 12350 6000 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 6350 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 6350 60  0001 L CNN
 F 3 "" H 12350 6150 50  0001 C CNN
 F 4 "100R" H 12350 6265 50  0000 C CNN "Val"
 F 5 "CR0402-FX-1000GLF" H 0   0   50  0001 C CNN "MPN"
@@ -1974,12 +1974,12 @@ F 6 "BOURNS" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_100R_0402 R23
+L gem2-adapter:R_100R_0402 R23
 U 1 1 5DD36979
 P 12350 5250
 F 0 "R23" H 12350 5463 60  0000 C CNN
 F 1 "R_120R_0402" H 12350 5100 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 5450 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 5450 60  0001 L CNN
 F 3 "" H 12350 5250 50  0001 C CNN
 F 4 "100R" H 12350 5365 50  0000 C CNN "Val"
 F 5 "CR0402-FX-1000GLF" H 0   0   50  0001 C CNN "MPN"
@@ -1992,12 +1992,12 @@ Wire Wire Line
 Wire Wire Line
 	12200 6150 11150 6150
 $Comp
-L zglue-jade-adapter:R_49R9_0402 R26
+L gem2-adapter:R_49R9_0402 R26
 U 1 1 5DDA56D5
 P 12800 5500
 F 0 "R26" V 12755 5570 60  0000 L CNN
 F 1 "R_49R9_0402" H 12800 5350 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 13000 5700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 13000 5700 60  0001 L CNN
 F 3 "" H 12800 5500 50  0001 C CNN
 F 4 "VISHAY" H 13000 5900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 13000 5800 60  0001 L CNN "MPN"
@@ -2006,12 +2006,12 @@ F 6 "49R9" V 12853 5570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:R_49R9_0402 R27
+L gem2-adapter:R_49R9_0402 R27
 U 1 1 5DDA5825
 P 12800 5900
 F 0 "R27" V 12755 5970 60  0000 L CNN
 F 1 "R_49R9_0402" H 12800 5750 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 13000 6100 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 13000 6100 60  0001 L CNN
 F 3 "" H 12800 5900 50  0001 C CNN
 F 4 "VISHAY" H 13000 6300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 13000 6200 60  0001 L CNN "MPN"
@@ -2035,7 +2035,7 @@ Connection ~ 12800 5700
 Wire Wire Line
 	12800 5700 12800 5750
 $Comp
-L zglue-jade-adapter:GND #PWR01
+L gem2-adapter:GND #PWR01
 U 1 1 5DE31927
 P 12250 5700
 F 0 "#PWR01" H 12250 5450 50  0001 C CNN
@@ -2046,12 +2046,12 @@ F 3 "" H 12250 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:R_22R_0402 R14
+L gem2-adapter:R_22R_0402 R14
 U 1 1 5DE31F32
 P 12350 4850
 F 0 "R14" H 12350 5063 60  0000 C CNN
 F 1 "R_22R_0402" H 12350 4700 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 5050 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 5050 60  0001 L CNN
 F 3 "" H 12350 4850 50  0001 C CNN
 F 4 "VISHAY" H 12550 5250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12550 5150 60  0001 L CNN "MPN"
@@ -2061,12 +2061,12 @@ F 7 "1" H 12350 4850 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-jade-adapter:R_22R_0402 R25
+L gem2-adapter:R_22R_0402 R25
 U 1 1 5DE32000
 P 12350 6500
 F 0 "R25" H 12350 6713 60  0000 C CNN
 F 1 "R_22R_0402" H 12350 6350 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 6700 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 6700 60  0001 L CNN
 F 3 "" H 12350 6500 50  0001 C CNN
 F 4 "VISHAY" H 12550 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12550 6800 60  0001 L CNN "MPN"
@@ -2110,23 +2110,23 @@ MIPI output
 Wire Wire Line
 	2350 6450 1750 6450
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP26
+L gem2-adapter:TP_SMD1MM TP26
 U 1 1 5E0C7918
 P 1650 6550
 F 0 "TP26" V 1650 6400 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6450 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6750 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6750 60  0001 L CNN
 F 3 "" H 1850 6850 60  0001 L CNN
 	1    1650 6550
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP25
+L gem2-adapter:TP_SMD1MM TP25
 U 1 1 5E0C791F
 P 1650 6450
 F 0 "TP25" V 1650 6300 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 6350 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 6650 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 6650 60  0001 L CNN
 F 3 "" H 1850 6750 60  0001 L CNN
 	1    1650 6450
 	0    1    1    0   
@@ -2157,12 +2157,12 @@ NoConn ~ 12300 3150
 Wire Wire Line
 	2350 5150 1750 5150
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP1
+L gem2-adapter:TP_SMD1MM TP1
 U 1 1 5DF17D2C
 P 1650 5150
 F 0 "TP1" V 1650 5000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1650 5050 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 1850 5350 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 1850 5350 60  0001 L CNN
 F 3 "" H 1850 5450 60  0001 L CNN
 	1    1650 5150
 	0    1    1    0   
@@ -2172,23 +2172,23 @@ PIO0
 Text Label 7900 4600 0    50   ~ 0
 PROC_RST
 $Comp
-L zglue-jade-adapter:TP_SMD1MM TP29
+L gem2-adapter:TP_SMD1MM TP29
 U 1 1 5DF566CE
 P 4900 4650
 F 0 "TP29" V 4900 4500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 4900 4550 50  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:Testpoint_smd_1mm" H 5100 4850 60  0001 L CNN
+F 2 "gem2-adapter-footprints:Testpoint_smd_1mm" H 5100 4850 60  0001 L CNN
 F 3 "" H 5100 4950 60  0001 L CNN
 	1    4900 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zglue-jade-adapter:R_0R_0402 R29
+L gem2-adapter:R_0R_0402 R29
 U 1 1 5DF56D0B
 P 8600 4600
 F 0 "R29" H 8800 4650 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4450 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 8800 4800 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 8800 4800 60  0001 L CNN
 F 3 "" H 8600 4600 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5000 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 4900 60  0001 L CNN "MPN"
@@ -2208,12 +2208,12 @@ Wire Wire Line
 	12800 6900 12500 6900
 Connection ~ 12800 6500
 $Comp
-L zglue-jade-adapter:R_22R_0402 R31
+L gem2-adapter:R_22R_0402 R31
 U 1 1 5DCA1BF5
 P 12350 6900
 F 0 "R31" H 12350 7113 60  0000 C CNN
 F 1 "R_22R_0402" H 12350 6750 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 7100 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 7100 60  0001 L CNN
 F 3 "" H 12350 6900 50  0001 C CNN
 F 4 "VISHAY" H 12550 7300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12550 7200 60  0001 L CNN "MPN"
@@ -2226,12 +2226,12 @@ Wire Wire Line
 Text Label 11300 6900 0    50   ~ 0
 PROG_LP_CSI_D1_OUT_N
 $Comp
-L zglue-jade-adapter:R_22R_0402 R30
+L gem2-adapter:R_22R_0402 R30
 U 1 1 5DD7B5FC
 P 12350 4450
 F 0 "R30" H 12350 4663 60  0000 C CNN
 F 1 "R_22R_0402" H 12350 4300 60  0001 C CNN
-F 2 "zglue-jade-adapter-footprints:0402-res" H 12550 4650 60  0001 L CNN
+F 2 "gem2-adapter-footprints:0402-res" H 12550 4650 60  0001 L CNN
 F 3 "" H 12350 4450 50  0001 C CNN
 F 4 "VISHAY" H 12550 4850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 12550 4750 60  0001 L CNN "MPN"
@@ -2260,12 +2260,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 2600 1750 2600
 $Comp
-L zglue-jade-adapter:GEM2 U1
+L gem2-adapter:GEM2 U1
 U 1 1 5ED52858
 P 3200 3450
 F 0 "U1" H 3275 5865 50  0000 C CNN
 F 1 "GEM2" H 3275 5774 50  0000 C CNN
-F 2 "zglue-jade-adapter-footprints:Z-Glue_LGA-96" H 3200 3450 50  0001 C CNN
+F 2 "gem2-adapter-footprints:Z-Glue_LGA-96" H 3200 3450 50  0001 C CNN
 F 3 "" H 3200 3450 50  0001 C CNN
 	1    3200 3450
 	1    0    0    -1  

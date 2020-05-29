@@ -342,7 +342,7 @@
     (add_net "Net-(U1-PadD8)")
   )
 
-  (module zglue-jade-adapter-footprints:Z-Glue_LGA-96 (layer Top_Layer) (tedit 5DF37404) (tstamp 5DF3A1DF)
+  (module gem2-adapter-footprints:Z-Glue_LGA-96 (layer Top_Layer) (tedit 5DF37404) (tstamp 5DF3A1DF)
     (at 12.5 10 180)
     (path /5ED52858)
     (fp_text reference U1 (at 4.27 3.4) (layer F.SilkS)
@@ -586,7 +586,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DC347F3)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DC347F3)
     (at 18.09 6.13)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -620,7 +620,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DC2B3B0)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DC2B3B0)
     (at 19.96 6.18 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -654,7 +654,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DBAB504)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DBAB504)
     (at 23.835 15.755)
     (path /5DF566CE)
     (fp_text reference TP29 (at -1.91 -0.08) (layer F.SilkS)
@@ -667,7 +667,7 @@
       (net 110 /PROC_INT))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB85EF4)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB85EF4)
     (at 21.455 0.74)
     (path /5DB9F4E8)
     (fp_text reference TP35 (at -0.1 1.78 90) (layer F.SilkS)
@@ -680,7 +680,7 @@
       (net 106 "Net-(TP35-Pad1)"))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7281B)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7281B)
     (at 0.835 3.715)
     (path /5D8F3A5B)
     (fp_text reference TP14 (at 0.61 1.05) (layer F.SilkS)
@@ -693,7 +693,7 @@
       (net 18 /LED1_ISINK))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7237E)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7237E)
     (at 1.065 9.635)
     (path /5D8F8F8D)
     (fp_text reference TP15 (at 0.32 1.23) (layer F.SilkS)
@@ -706,7 +706,7 @@
       (net 22 /LED2_ISINK))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB72379)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB72379)
     (at 0.975 6.305)
     (path /5D8F8FB7)
     (fp_text reference TP16 (at 1.53 1.11) (layer F.SilkS)
@@ -719,7 +719,7 @@
       (net 17 /LED3_ISINK))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB72344)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB72344)
     (at 22.925 0.74)
     (path /5DB51D00)
     (fp_text reference TP34 (at -0.22 1.78 90) (layer F.SilkS)
@@ -732,7 +732,7 @@
       (net 105 "Net-(TP34-Pad1)"))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7233F)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7233F)
     (at 0.765 19.235)
     (path /5DB4B7D6)
     (fp_text reference TP33 (at 1.7 -0.69) (layer F.SilkS)
@@ -745,7 +745,7 @@
       (net 104 /BOOST_OUT))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7233A)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DB7233A)
     (at 17.88 17.54)
     (path /5DB4B87C)
     (fp_text reference TP32 (at -0.575 1.35) (layer F.SilkS)
@@ -758,7 +758,7 @@
       (net 20 /VSENSE))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F49A9)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F49A9)
     (at 7.9516 17.2908 270)
     (path /5D8CA6F0)
     (fp_text reference TP5 (at 1.6042 0.2766 270) (layer F.SilkS)
@@ -771,7 +771,7 @@
       (net 96 /DMUX))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F49A4)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F49A4)
     (at 3.0492 15.18 270)
     (path /5D8CA73B)
     (fp_text reference TP6 (at -0.765 1.4242) (layer F.SilkS)
@@ -784,7 +784,7 @@
       (net 95 /AMUX))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F33E9)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F33E9)
     (at 8.6 18.93 270)
     (path /5D92F140)
     (fp_text reference TP13 (at 0.5 -2) (layer F.SilkS) hide
@@ -797,7 +797,7 @@
       (net 94 /VX))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4955)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4955)
     (at 9.7192 0.6892 270)
     (path /5E08B0EF)
     (fp_text reference TP18 (at 2.0408 0.8492 270) (layer F.SilkS)
@@ -810,7 +810,7 @@
       (net 93 /PIO6))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4950)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4950)
     (at 11.22 0.6892 270)
     (path /5E09E6CA)
     (fp_text reference TP19 (at 2.185 1.0242 270) (layer F.SilkS)
@@ -823,7 +823,7 @@
       (net 92 /PIO7))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F494B)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F494B)
     (at 12.69 0.6892 270)
     (path /5E09E6C3)
     (fp_text reference TP20 (at 2.145 1.165 270) (layer F.SilkS)
@@ -836,7 +836,7 @@
       (net 91 /PIO8))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4937)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4937)
     (at 3.3192 0.6892 270)
     (path /5E0C7911)
     (fp_text reference TP27 (at 1.9908 0.2892 90) (layer F.SilkS)
@@ -849,7 +849,7 @@
       (net 90 /PIO15))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4932)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4932)
     (at 15.6 0.6892 270)
     (path /5E0C7918)
     (fp_text reference TP26 (at 1.8308 -1.055 270) (layer F.SilkS)
@@ -862,7 +862,7 @@
       (net 111 /PIO14))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F492D)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F492D)
     (at 21.2142 13.765 270)
     (path /5E0C791F)
     (fp_text reference TP25 (at -0.32 -1.8608) (layer F.SilkS)
@@ -875,7 +875,7 @@
       (net 112 /PIO13))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4928)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4928)
     (at 18.6 0.6892 270)
     (path /5E0B2973)
     (fp_text reference TP24 (at 1.8308 -0.265 270) (layer F.SilkS)
@@ -888,7 +888,7 @@
       (net 89 /PIO12))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4923)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4923)
     (at 20.1 0.6892 270)
     (path /5E0B297A)
     (fp_text reference TP23 (at 1.8308 -0.025 270) (layer F.SilkS)
@@ -901,7 +901,7 @@
       (net 88 /PIO11))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F491E)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F491E)
     (at 17.0492 0.6892 270)
     (path /5E0B2981)
     (fp_text reference TP22 (at 1.8308 -0.6358 270) (layer F.SilkS)
@@ -914,7 +914,7 @@
       (net 87 /PIO10))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4919)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4919)
     (at 14.2016 0.6892 270)
     (path /5E09E6BC)
     (fp_text reference TP21 (at 1.8308 -1.3734 270) (layer F.SilkS)
@@ -927,7 +927,7 @@
       (net 86 /PIO9))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1111)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1111)
     (at 5.01 17.24 180)
     (path /5D92BE5C)
     (fp_text reference TP4 (at -0.515 -1.705 270) (layer F.SilkS)
@@ -940,7 +940,7 @@
       (net 27 /PC_RDY))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F110C)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F110C)
     (at 8.08 0.6384 180)
     (path /5D971A5D)
     (fp_text reference TP9 (at 0.51 -1.9916 270) (layer F.SilkS)
@@ -953,7 +953,7 @@
       (net 49 /PIO3))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1107)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1107)
     (at 6.52 17.24 180)
     (path /5D9289B9)
     (fp_text reference TP7 (at -0.105 -1.685 270) (layer F.SilkS)
@@ -966,7 +966,7 @@
       (net 23 /EXTCLK_EN))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1102)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F1102)
     (at 2.2 17.24 180)
     (path /5D8CA753)
     (fp_text reference TP3 (at 0.925 1.055) (layer F.SilkS)
@@ -979,7 +979,7 @@
       (net 33 /ZIP_EN_L))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10FD)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10FD)
     (at 1.64 0.6384 180)
     (path /5DF17D2C)
     (fp_text reference TP1 (at -0.02 -1.5016 270) (layer F.SilkS)
@@ -992,7 +992,7 @@
       (net 113 /PIO0))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10F3)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10F3)
     (at 3.58 17.24 180)
     (path /5D8CA5C3)
     (fp_text reference TP8 (at -0.925 -1.745 270) (layer F.SilkS)
@@ -1005,7 +1005,7 @@
       (net 31 /EXT_CLK))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4727)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4727)
     (at 4.98 0.6384 180)
     (path /5D971AF5)
     (fp_text reference TP11 (at 0.47 -1.9416 270) (layer F.SilkS)
@@ -1018,7 +1018,7 @@
       (net 64 /PIO1))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10E9)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F10E9)
     (at 3.24 5.03 180)
     (path /5D935A2A)
     (fp_text reference TP12 (at -1.895 -0.905 180) (layer F.SilkS)
@@ -1031,7 +1031,7 @@
       (net 48 /ULPM_WAKE))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DC2FA63)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5DC2FA63)
     (at 6.59 0.6384 180)
     (path /5D971AC3)
     (fp_text reference TP10 (at 0.52 -1.9816 270) (layer F.SilkS)
@@ -1044,7 +1044,7 @@
       (net 68 /PIO2))
   )
 
-  (module zglue-jade-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4321)
+  (module gem2-adapter-footprints:Testpoint_smd_1mm (layer Top_Layer) (tedit 5DB97F75) (tstamp 5D9F4321)
     (at 23.895 3.2042 180)
     (path /5D9390AB)
     (fp_text reference TP17 (at -0.2 1.8592 270) (layer F.SilkS)
@@ -1057,7 +1057,7 @@
       (net 71 /SYS_CLK))
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBAB852)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBAB852)
     (at 6.765 4.445 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1091,7 +1091,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:543630489 (layer Bottom_Layer) (tedit 5D9DA385) (tstamp 5D9F37E8)
+  (module gem2-adapter-footprints:543630489 (layer Bottom_Layer) (tedit 5D9DA385) (tstamp 5D9F37E8)
     (at 3.75 10 180)
     (path /5DD17041)
     (attr smd)
@@ -1203,7 +1203,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DBC9093)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DBC9093)
     (at 18.555 11.665 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1237,7 +1237,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85AC2) (tstamp 5DB861E3)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85AC2) (tstamp 5DB861E3)
     (at 16.88 11.09)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1271,7 +1271,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:543630489 (layer Bottom_Layer) (tedit 5D9DA385) (tstamp 5DBA2506)
+  (module gem2-adapter-footprints:543630489 (layer Bottom_Layer) (tedit 5D9DA385) (tstamp 5DBA2506)
     (at 21.25 10 180)
     (path /5DD17377)
     (attr smd)
@@ -1383,7 +1383,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE6B)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE6B)
     (at 21.75 4.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1417,7 +1417,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB8587C) (tstamp 5DB86357)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB8587C) (tstamp 5DB86357)
     (at 12.73 15.64 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1451,7 +1451,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBA7A1A)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBA7A1A)
     (at 6.005 7.345)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1485,7 +1485,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBDD699)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBDD699)
     (at 13.245 2.59 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1519,7 +1519,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB861FD) (tstamp 5DBB3C37)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB861FD) (tstamp 5DBB3C37)
     (at 19.955 7.635 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1553,7 +1553,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85882) (tstamp 5DB86257)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85882) (tstamp 5DB86257)
     (at 14.055 15.815 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1587,7 +1587,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB8622C)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB8622C)
     (at 15.505 15.315)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1621,7 +1621,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB86201)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB86201)
     (at 19.48 5.685 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1655,7 +1655,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85ABE) (tstamp 5DB861F2)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB85ABE) (tstamp 5DB861F2)
     (at 16.88 12.04)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1689,7 +1689,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBA7A53)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DBA7A53)
     (at 18.565 5.665 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1723,7 +1723,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB861FF) (tstamp 5DB86101)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5DB861FF) (tstamp 5DB86101)
     (at 18.125 7.635 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1757,7 +1757,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0603-cap (layer Top_Layer) (tedit 5D5E94D2) (tstamp 5DB2FDED)
+  (module gem2-adapter-footprints:0603-cap (layer Top_Layer) (tedit 5D5E94D2) (tstamp 5DB2FDED)
     (at 6.415 13.615 270)
     (path /5DB7F637)
     (attr smd)
@@ -1792,7 +1792,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F14CD)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F14CD)
     (at 18.301 9.625 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1826,7 +1826,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB9442B)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB9442B)
     (at 17.805 13.615 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1860,7 +1860,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB308B5)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB308B5)
     (at 12.355 17.415 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1894,7 +1894,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F2004)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F2004)
     (at 14.28 17.74 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1928,7 +1928,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F1482)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F1482)
     (at 11.416 16.809 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1962,7 +1962,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB308DF)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5DB308DF)
     (at 10.205 16.815 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1996,7 +1996,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F140E)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F140E)
     (at 5.852 9.309 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2030,7 +2030,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F13FF)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9F13FF)
     (at 7.912 13.78 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2064,7 +2064,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F12D8)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F12D8)
     (at 3.715 13.065)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2098,7 +2098,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F12AB)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F12AB)
     (at 5.852 11.339)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2132,7 +2132,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F129C)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F129C)
     (at 5.001 16.061)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2166,7 +2166,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F128D)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F128D)
     (at 4.991 14.971)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2200,7 +2200,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB73768)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB73768)
     (at 14.325 2.585 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2234,7 +2234,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F1260)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F1260)
     (at 13.205 18.615 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2268,7 +2268,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F205B)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F205B)
     (at 19.245 9.635 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2302,7 +2302,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F1242)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9F1242)
     (at 16.535 17.4 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2336,7 +2336,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB94455)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5DB94455)
     (at 18.805 13.615 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2370,7 +2370,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9DAFB5)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9DAFB5)
     (at 5.852 10.329 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2404,7 +2404,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9DAF4C)
+  (module gem2-adapter-footprints:0402-cap (layer Top_Layer) (tedit 5D5E9295) (tstamp 5D9DAF4C)
     (at 7.377 11.736 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2438,7 +2438,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAED4)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAED4)
     (at 21.75 11.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2472,7 +2472,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEC5)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEC5)
     (at 21.75 10.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2506,7 +2506,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEB6)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEB6)
     (at 21.75 9.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2540,7 +2540,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEA7)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAEA7)
     (at 21.75 8.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2574,7 +2574,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE98)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE98)
     (at 21.75 7.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2608,7 +2608,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE89)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9DAE89)
     (at 21.75 6.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2642,7 +2642,7 @@
     )
   )
 
-  (module zglue-jade-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9EB8B0)
+  (module gem2-adapter-footprints:0402-res (layer Top_Layer) (tedit 5D5E98EC) (tstamp 5D9EB8B0)
     (at 21.75 5.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
