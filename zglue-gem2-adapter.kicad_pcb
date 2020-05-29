@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2~bpo10+1)
 
   (general
     (thickness 1)
@@ -344,11 +344,11 @@
 
   (module zglue-jade-adapter-footprints:Z-Glue_LGA-96 (layer Top_Layer) (tedit 5DF37404) (tstamp 5DF3A1DF)
     (at 12.5 10 180)
-    (path /5DB41B4F)
+    (path /5ED52858)
     (fp_text reference U1 (at 4.27 3.4) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value zGlue-Jade (at 0 7.475) (layer F.Fab)
+    (fp_text value GEM2 (at 0 7.475) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.4 -4.75) (end -3.4 4.75) (layer F.SilkS) (width 0.1))
