@@ -6,7 +6,7 @@ Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 .. figure:: img/gem2-adapter.png
 
 This repository contains PCB design files for an adapter board accommodating the GEM2 chip created jointly by `zGlue <http://zglue.com>`_ and `Antmicro <http://www.antmicro.com>`_.
-The GEM2 design utilizes the zGlue ZiP chiplet technology and has been prepared using zGlue's `ChipBuilder <http://chipbuilder.zglue.com/>`_ tool.
+The `GEM2 design <https://zglue.com/design-automation/oci/project/gem2>`_ utilizes the zGlue ZiP chiplet technology and has been prepared using zGlue's `ChipBuilder <http://chipbuilder.zglue.com/>`_ tool.
 The design has been produced as a single integrated circuit in the LGA-96 package.
 
 The GEM2 chip contains the following components located on a dynamically reconfigurable interposer:
